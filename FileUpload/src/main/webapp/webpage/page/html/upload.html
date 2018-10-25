@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>上传</title>
+    <link href="../css/upload.less" rel="stylesheet/less" type="text/css"/>
+</head>
+
+<body>
+    <div class="main">
+        <!-- 左侧图片 -->
+            <div class="left-box">
+            </div>
+        <!--右侧上传form -->
+            <div class="right-box">
+                <form action="/FileUpload/helloWord" method="POST" enctype="multipart/form-data" class="upload_form">
+                    <input type="file" name="filename">
+                    <input type="text" name="studentName" value="海贼王" style="margin-bottom: 30px;">
+                    <button class="push-button">提交</button>
+                </form>
+            </div>
+    </div>
+
+<script src="../js/less.min.js"></script>
+</body>
+
+</html>
